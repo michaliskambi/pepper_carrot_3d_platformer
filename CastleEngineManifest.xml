@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project name="pepper_platformer"
+  standalone_source="pepper_platformer_standalone.lpr"
+  game_units="GameInitialize"
+  qualified_name="ultidonki.pepperplatformer"
+  caption="Pepper Platformer"
+>
+  <compiler_options>
+    <search_paths>
+      <path value="code/" />
+      <path value="code/level1/" />
+      <path value="code/rivers_and_bridges/" />
+      <path value="code/level_cave/" />
+      <path value="code/level_komona/" />
+      <path value="code/level_clouds/" />
+      <path value="code/level_swim/" />
+      <path value="code/level_snowball/" />
+      <path value="code/level_snowman/" />
+      <path value="code/level_castle/" />
+      <path value="code/win_state/" />
+    </search_paths>
+  </compiler_options>
+</project>

@@ -1,0 +1,760 @@
+{
+  "FullSize" : true,
+  "Name" : "RootGroup",
+  "$Children" : [
+    {
+      "BackgroundColorPersistent" : {
+        "Blue" : 7.7647060155868530E-001,
+        "Green" : 7.7254903316497803E-001,
+        "Red" : 3.8823530077934265E-001,
+        "$ClassName" : "TCastleColorPersistent"
+      },
+      "Camera" : {
+        "InitialPositionPersistent" : {
+          "Y" : 2.0000000000000000E+000,
+          "Z" : 1.2500000000000000E+002,
+          "$ClassName" : "TCastleVector3Persistent"
+        },
+        "InitialUpPersistent" : {
+          "X" : -4.0233129539046786E-007,
+          "$ClassName" : "TCastleVector3Persistent"
+        },
+        "Name" : "Camera",
+        "Orthographic" : {
+          "Name" : "Orthographic",
+          "$Children" : [
+          ],
+          "$ClassName" : "TCastleOrthographic"
+        },
+        "Perspective" : {
+          "Name" : "Perspective",
+          "$Children" : [
+          ],
+          "$ClassName" : "TCastlePerspective"
+        },
+        "$Children" : [
+        ],
+        "$ClassName" : "TCastleCamera"
+      },
+      "FullSize" : true,
+      "Items" : {
+        "Name" : "Items",
+        "PhysicsProperties" : {
+          "Name" : "PhysicsProperties",
+          "$Children" : [
+          ],
+          "$ClassName" : "TPhysicsProperties"
+        },
+        "UseHeadlight" : "hlOff",
+        "$Children" : [
+          {
+            "Exists" : false,
+            "ExposeTransforms" : [
+            ],
+            "Name" : "SceneLevel",
+            "RenderOptions" : {
+              "Name" : "RenderOptions",
+              "$Children" : [
+              ],
+              "$ClassName" : "TCastleScene.TSceneRenderOptions"
+            },
+            "Spatial" : [
+              "ssRendering",
+              "ssStaticCollisions"
+            ],
+            "TranslationPersistent" : {
+              "Y" : -1.0000000000000000E+001,
+              "$ClassName" : "TCastleVector3Persistent"
+            },
+            "$Children" : [
+            ],
+            "$ClassName" : "TCastleScene"
+          },
+          {
+            "AutoAnimation" : "fly",
+            "DefaultAnimationTransition" : 1.0000000149011612E-001,
+            "ExposeTransforms" : [
+            ],
+            "Name" : "SceneAvatar",
+            "ProcessEvents" : true,
+            "RenderOptions" : {
+              "Name" : "RenderOptions",
+              "WireframeEffect" : "weSilhouette",
+              "$Children" : [
+              ],
+              "$ClassName" : "TCastleScene.TSceneRenderOptions"
+            },
+            "RotationPersistent" : {
+              "W" : 3.0000000000000000E+000,
+              "Y" : 1.6000000000000000E+001,
+              "$ClassName" : "TCastleVector4Persistent"
+            },
+            "Spatial" : [
+              "ssRendering",
+              "ssDynamicCollisions"
+            ],
+            "TranslationPersistent" : {
+              "X" : -1.2067273259162903E-001,
+              "Y" : -1.2595160484313965E+001,
+              "Z" : 1.2184754180908203E+002,
+              "$ClassName" : "TCastleVector3Persistent"
+            },
+            "URL" : "castle-data:/level_komona/pepper_fly.gltf",
+            "$Children" : [
+            ],
+            "$ClassName" : "TCastleScene"
+          },
+          {
+            "ExposeTransforms" : [
+            ],
+            "Name" : "SceneKomona",
+            "RenderOptions" : {
+              "Name" : "RenderOptions",
+              "WireframeEffect" : "weSilhouette",
+              "$Children" : [
+              ],
+              "$ClassName" : "TCastleScene.TSceneRenderOptions"
+            },
+            "ScalePersistent" : {
+              "X" : 2.0000000000000000E+001,
+              "Y" : 2.0000000000000000E+001,
+              "Z" : 2.0000000000000000E+001,
+              "$ClassName" : "TCastleVector3Persistent"
+            },
+            "Spatial" : [
+              "ssDynamicCollisions"
+            ],
+            "URL" : "castle-data:/level_komona/komona_lowres.gltf",
+            "$Children" : [
+            ],
+            "$ClassName" : "TCastleScene"
+          },
+          {
+            "Exists" : false,
+            "ExposeTransforms" : [
+            ],
+            "Name" : "SceneClouds",
+            "RenderOptions" : {
+              "Name" : "RenderOptions",
+              "WireframeEffect" : "weSilhouette",
+              "$Children" : [
+              ],
+              "$ClassName" : "TCastleScene.TSceneRenderOptions"
+            },
+            "ScalePersistent" : {
+              "X" : 5.0000000000000000E+000,
+              "Y" : 5.0000000000000000E+000,
+              "Z" : 1.0000000000000000E+001,
+              "$ClassName" : "TCastleVector3Persistent"
+            },
+            "Spatial" : [
+              "ssDynamicCollisions"
+            ],
+            "$Children" : [
+            ],
+            "$ClassName" : "TCastleScene"
+          },
+          {
+            "Name" : "GemHolder",
+            "$Children" : [
+              {
+                "Collides" : false,
+                "CollisionSphereRadius" : 1.0000000000000000E+000,
+                "ColorPersistent" : {
+                  "Blue" : 0.0000000000000000E+000,
+                  "$ClassName" : "TCastleColorPersistent"
+                },
+                "Material" : "pmUnlit",
+                "Name" : "Gem1",
+                "RenderOptions" : {
+                  "Name" : "RenderOptions",
+                  "WireframeEffect" : "weSilhouette",
+                  "$Children" : [
+                  ],
+                  "$ClassName" : "TCastleScene.TSceneRenderOptions"
+                },
+                "TranslationPersistent" : {
+                  "Y" : -1.1817871093750000E+001,
+                  "Z" : 7.9387390136718750E+001,
+                  "$ClassName" : "TCastleVector3Persistent"
+                },
+                "$Children" : [
+                ],
+                "$ClassName" : "TCastleSphere"
+              },
+              {
+                "Collides" : false,
+                "CollisionSphereRadius" : 1.0000000000000000E+000,
+                "ColorPersistent" : {
+                  "Blue" : 0.0000000000000000E+000,
+                  "$ClassName" : "TCastleColorPersistent"
+                },
+                "Material" : "pmUnlit",
+                "Name" : "Gem13",
+                "RenderOptions" : {
+                  "Name" : "RenderOptions",
+                  "WireframeEffect" : "weSilhouette",
+                  "$Children" : [
+                  ],
+                  "$ClassName" : "TCastleScene.TSceneRenderOptions"
+                },
+                "TranslationPersistent" : {
+                  "Y" : -4.3082675933837891E+001,
+                  "Z" : 2.3247623443603516E+001,
+                  "$ClassName" : "TCastleVector3Persistent"
+                },
+                "$Children" : [
+                ],
+                "$ClassName" : "TCastleSphere"
+              },
+              {
+                "Collides" : false,
+                "CollisionSphereRadius" : 1.0000000000000000E+000,
+                "ColorPersistent" : {
+                  "Blue" : 0.0000000000000000E+000,
+                  "$ClassName" : "TCastleColorPersistent"
+                },
+                "Material" : "pmUnlit",
+                "Name" : "Gem15",
+                "RenderOptions" : {
+                  "Name" : "RenderOptions",
+                  "WireframeEffect" : "weSilhouette",
+                  "$Children" : [
+                  ],
+                  "$ClassName" : "TCastleScene.TSceneRenderOptions"
+                },
+                "TranslationPersistent" : {
+                  "X" : -3.0293624877929688E+001,
+                  "Y" : -4.3082675933837891E+001,
+                  "Z" : -1.0483889579772949E+001,
+                  "$ClassName" : "TCastleVector3Persistent"
+                },
+                "$Children" : [
+                ],
+                "$ClassName" : "TCastleSphere"
+              },
+              {
+                "Collides" : false,
+                "CollisionSphereRadius" : 1.0000000000000000E+000,
+                "ColorPersistent" : {
+                  "Blue" : 0.0000000000000000E+000,
+                  "$ClassName" : "TCastleColorPersistent"
+                },
+                "Material" : "pmUnlit",
+                "Name" : "Gem16",
+                "RenderOptions" : {
+                  "Name" : "RenderOptions",
+                  "WireframeEffect" : "weSilhouette",
+                  "$Children" : [
+                  ],
+                  "$ClassName" : "TCastleScene.TSceneRenderOptions"
+                },
+                "TranslationPersistent" : {
+                  "X" : 1.8962192535400391E+000,
+                  "Y" : -1.0171710968017578E+002,
+                  "Z" : -1.0483889579772949E+001,
+                  "$ClassName" : "TCastleVector3Persistent"
+                },
+                "$Children" : [
+                ],
+                "$ClassName" : "TCastleSphere"
+              },
+              {
+                "Collides" : false,
+                "CollisionSphereRadius" : 1.0000000000000000E+000,
+                "ColorPersistent" : {
+                  "Blue" : 0.0000000000000000E+000,
+                  "$ClassName" : "TCastleColorPersistent"
+                },
+                "Material" : "pmUnlit",
+                "Name" : "Gem14",
+                "RenderOptions" : {
+                  "Name" : "RenderOptions",
+                  "WireframeEffect" : "weSilhouette",
+                  "$Children" : [
+                  ],
+                  "$ClassName" : "TCastleScene.TSceneRenderOptions"
+                },
+                "TranslationPersistent" : {
+                  "X" : 1.7405006408691406E+001,
+                  "Y" : -4.3082675933837891E+001,
+                  "Z" : -3.4629043579101562E+001,
+                  "$ClassName" : "TCastleVector3Persistent"
+                },
+                "$Children" : [
+                ],
+                "$ClassName" : "TCastleSphere"
+              },
+              {
+                "CollisionSphereRadius" : 1.0000000000000000E+000,
+                "ColorPersistent" : {
+                  "Blue" : 0.0000000000000000E+000,
+                  "$ClassName" : "TCastleColorPersistent"
+                },
+                "Material" : "pmUnlit",
+                "Name" : "Gem11",
+                "RenderOptions" : {
+                  "Name" : "RenderOptions",
+                  "WireframeEffect" : "weSilhouette",
+                  "$Children" : [
+                  ],
+                  "$ClassName" : "TCastleScene.TSceneRenderOptions"
+                },
+                "TranslationPersistent" : {
+                  "Y" : -1.1817871093750000E+001,
+                  "Z" : 1.0802582550048828E+002,
+                  "$ClassName" : "TCastleVector3Persistent"
+                },
+                "$Children" : [
+                ],
+                "$ClassName" : "TCastleSphere"
+              },
+              {
+                "Collides" : false,
+                "CollisionSphereRadius" : 1.0000000000000000E+000,
+                "ColorPersistent" : {
+                  "Blue" : 0.0000000000000000E+000,
+                  "$ClassName" : "TCastleColorPersistent"
+                },
+                "Material" : "pmUnlit",
+                "Name" : "Gem2",
+                "RenderOptions" : {
+                  "Name" : "RenderOptions",
+                  "WireframeEffect" : "weSilhouette",
+                  "$Children" : [
+                  ],
+                  "$ClassName" : "TCastleScene.TSceneRenderOptions"
+                },
+                "TranslationPersistent" : {
+                  "Y" : -1.1838242530822754E+001,
+                  "Z" : 5.9417751312255859E+001,
+                  "$ClassName" : "TCastleVector3Persistent"
+                },
+                "$Children" : [
+                ],
+                "$ClassName" : "TCastleSphere"
+              },
+              {
+                "Collides" : false,
+                "CollisionSphereRadius" : 1.0000000000000000E+000,
+                "ColorPersistent" : {
+                  "Blue" : 0.0000000000000000E+000,
+                  "$ClassName" : "TCastleColorPersistent"
+                },
+                "Material" : "pmUnlit",
+                "Name" : "Gem3",
+                "RenderOptions" : {
+                  "Name" : "RenderOptions",
+                  "WireframeEffect" : "weSilhouette",
+                  "$Children" : [
+                  ],
+                  "$ClassName" : "TCastleScene.TSceneRenderOptions"
+                },
+                "TranslationPersistent" : {
+                  "Y" : -1.1838242530822754E+001,
+                  "Z" : 1.1173430442810059E+001,
+                  "$ClassName" : "TCastleVector3Persistent"
+                },
+                "$Children" : [
+                ],
+                "$ClassName" : "TCastleSphere"
+              },
+              {
+                "Collides" : false,
+                "CollisionSphereRadius" : 1.0000000000000000E+000,
+                "ColorPersistent" : {
+                  "Blue" : 0.0000000000000000E+000,
+                  "$ClassName" : "TCastleColorPersistent"
+                },
+                "Material" : "pmUnlit",
+                "Name" : "Gem6",
+                "RenderOptions" : {
+                  "Name" : "RenderOptions",
+                  "WireframeEffect" : "weSilhouette",
+                  "$Children" : [
+                  ],
+                  "$ClassName" : "TCastleScene.TSceneRenderOptions"
+                },
+                "TranslationPersistent" : {
+                  "Y" : 7.8073663711547852E+000,
+                  "Z" : -1.0830503463745117E+001,
+                  "$ClassName" : "TCastleVector3Persistent"
+                },
+                "$Children" : [
+                ],
+                "$ClassName" : "TCastleSphere"
+              },
+              {
+                "Collides" : false,
+                "CollisionSphereRadius" : 1.0000000000000000E+000,
+                "ColorPersistent" : {
+                  "Blue" : 0.0000000000000000E+000,
+                  "$ClassName" : "TCastleColorPersistent"
+                },
+                "Material" : "pmUnlit",
+                "Name" : "Gem7",
+                "RenderOptions" : {
+                  "Name" : "RenderOptions",
+                  "WireframeEffect" : "weSilhouette",
+                  "$Children" : [
+                  ],
+                  "$ClassName" : "TCastleScene.TSceneRenderOptions"
+                },
+                "TranslationPersistent" : {
+                  "Y" : 4.3381549835205078E+001,
+                  "Z" : -1.0830503463745117E+001,
+                  "$ClassName" : "TCastleVector3Persistent"
+                },
+                "$Children" : [
+                ],
+                "$ClassName" : "TCastleSphere"
+              },
+              {
+                "Collides" : false,
+                "CollisionSphereRadius" : 1.0000000000000000E+000,
+                "ColorPersistent" : {
+                  "Blue" : 0.0000000000000000E+000,
+                  "$ClassName" : "TCastleColorPersistent"
+                },
+                "Material" : "pmUnlit",
+                "Name" : "Gem12",
+                "RenderOptions" : {
+                  "Name" : "RenderOptions",
+                  "WireframeEffect" : "weSilhouette",
+                  "$Children" : [
+                  ],
+                  "$ClassName" : "TCastleScene.TSceneRenderOptions"
+                },
+                "TranslationPersistent" : {
+                  "Y" : 9.2417968750000000E+001,
+                  "Z" : -1.0830503463745117E+001,
+                  "$ClassName" : "TCastleVector3Persistent"
+                },
+                "$Children" : [
+                ],
+                "$ClassName" : "TCastleSphere"
+              },
+              {
+                "Collides" : false,
+                "CollisionSphereRadius" : 1.0000000000000000E+000,
+                "ColorPersistent" : {
+                  "Blue" : 0.0000000000000000E+000,
+                  "$ClassName" : "TCastleColorPersistent"
+                },
+                "Material" : "pmUnlit",
+                "Name" : "Gem5",
+                "RenderOptions" : {
+                  "Name" : "RenderOptions",
+                  "WireframeEffect" : "weSilhouette",
+                  "$Children" : [
+                  ],
+                  "$ClassName" : "TCastleScene.TSceneRenderOptions"
+                },
+                "TranslationPersistent" : {
+                  "X" : -4.7757087707519531E+001,
+                  "Y" : -2.1665740966796875E+001,
+                  "Z" : -8.3331241607666016E+000,
+                  "$ClassName" : "TCastleVector3Persistent"
+                },
+                "$Children" : [
+                ],
+                "$ClassName" : "TCastleSphere"
+              },
+              {
+                "Collides" : false,
+                "CollisionSphereRadius" : 1.0000000000000000E+000,
+                "ColorPersistent" : {
+                  "Blue" : 0.0000000000000000E+000,
+                  "$ClassName" : "TCastleColorPersistent"
+                },
+                "Material" : "pmUnlit",
+                "Name" : "Gem4",
+                "RenderOptions" : {
+                  "Name" : "RenderOptions",
+                  "WireframeEffect" : "weSilhouette",
+                  "$Children" : [
+                  ],
+                  "$ClassName" : "TCastleScene.TSceneRenderOptions"
+                },
+                "TranslationPersistent" : {
+                  "X" : 4.6167263031005859E+001,
+                  "Y" : -1.6385780334472656E+001,
+                  "Z" : 3.4760951995849609E+000,
+                  "$ClassName" : "TCastleVector3Persistent"
+                },
+                "$Children" : [
+                ],
+                "$ClassName" : "TCastleSphere"
+              },
+              {
+                "Collides" : false,
+                "CollisionSphereRadius" : 1.0000000000000000E+000,
+                "ColorPersistent" : {
+                  "Blue" : 0.0000000000000000E+000,
+                  "$ClassName" : "TCastleColorPersistent"
+                },
+                "Material" : "pmUnlit",
+                "Name" : "Gem10",
+                "RenderOptions" : {
+                  "Name" : "RenderOptions",
+                  "WireframeEffect" : "weSilhouette",
+                  "$Children" : [
+                  ],
+                  "$ClassName" : "TCastleScene.TSceneRenderOptions"
+                },
+                "TranslationPersistent" : {
+                  "X" : 4.4091133117675781E+001,
+                  "Y" : -1.6385780334472656E+001,
+                  "Z" : -3.7330062866210938E+001,
+                  "$ClassName" : "TCastleVector3Persistent"
+                },
+                "$Children" : [
+                ],
+                "$ClassName" : "TCastleSphere"
+              },
+              {
+                "Collides" : false,
+                "CollisionSphereRadius" : 1.0000000000000000E+000,
+                "ColorPersistent" : {
+                  "Blue" : 0.0000000000000000E+000,
+                  "$ClassName" : "TCastleColorPersistent"
+                },
+                "Material" : "pmUnlit",
+                "Name" : "Gem8",
+                "RenderOptions" : {
+                  "Name" : "RenderOptions",
+                  "WireframeEffect" : "weSilhouette",
+                  "$Children" : [
+                  ],
+                  "$ClassName" : "TCastleScene.TSceneRenderOptions"
+                },
+                "TranslationPersistent" : {
+                  "X" : 1.0717634582519531E+002,
+                  "Y" : 1.5329181671142578E+001,
+                  "Z" : 3.4760951995849609E+000,
+                  "$ClassName" : "TCastleVector3Persistent"
+                },
+                "$Children" : [
+                ],
+                "$ClassName" : "TCastleSphere"
+              },
+              {
+                "Collides" : false,
+                "CollisionSphereRadius" : 1.0000000000000000E+000,
+                "ColorPersistent" : {
+                  "Blue" : 0.0000000000000000E+000,
+                  "$ClassName" : "TCastleColorPersistent"
+                },
+                "Material" : "pmUnlit",
+                "Name" : "Gem9",
+                "RenderOptions" : {
+                  "Name" : "RenderOptions",
+                  "WireframeEffect" : "weSilhouette",
+                  "$Children" : [
+                  ],
+                  "$ClassName" : "TCastleScene.TSceneRenderOptions"
+                },
+                "TranslationPersistent" : {
+                  "X" : 1.0717634582519531E+002,
+                  "Y" : -1.3950709342956543E+001,
+                  "Z" : 3.4760951995849609E+000,
+                  "$ClassName" : "TCastleVector3Persistent"
+                },
+                "$Children" : [
+                ],
+                "$ClassName" : "TCastleSphere"
+              }
+            ],
+            "$ClassName" : "TCastleTransform"
+          }
+        ],
+        "$ClassName" : "TCastleRootTransform"
+      },
+      "Name" : "MainViewport",
+      "Navigation" : "WalkNavigation1",
+      "$Children" : [
+        {
+          "Gravity" : false,
+          "MouseDragMode" : "mdRotate",
+          "MoveSpeed" : 1.0000000000000000E+001,
+          "Name" : "WalkNavigation1",
+          "$Children" : [
+          ],
+          "$ClassName" : "TCastleWalkNavigation"
+        },
+        {
+          "Name" : "LabelGems",
+          "Text" : [
+            "LabelGems"
+          ],
+          "$Children" : [
+          ],
+          "$ClassName" : "TCastleLabel"
+        }
+      ],
+      "$ClassName" : "TCastleViewport"
+    },
+    {
+      "ColorPersistent" : {
+        "Green" : 1.0000000000000000E+000,
+        "Red" : 1.0000000000000000E+000,
+        "$ClassName" : "TCastleColorPersistent"
+      },
+      "FontSize" : 2.0000000000000000E+001,
+      "HorizontalAnchorDelta" : -2.0000000000000000E+001,
+      "HorizontalAnchorParent" : "hpRight",
+      "HorizontalAnchorSelf" : "hpRight",
+      "Name" : "LabelFps",
+      "Text" : [
+        "FPS: xxx"
+      ],
+      "VerticalAnchorDelta" : -2.0000000000000000E+001,
+      "VerticalAnchorParent" : "vpTop",
+      "VerticalAnchorSelf" : "vpTop",
+      "$Children" : [
+      ],
+      "$ClassName" : "TCastleLabel"
+    },
+    {
+      "Exists" : false,
+      "Name" : "VerticalGroup1",
+      "Padding" : 1.0000000000000000E+001,
+      "Spacing" : 1.0000000000000000E+001,
+      "VerticalAnchorParent" : "vpTop",
+      "VerticalAnchorSelf" : "vpTop",
+      "$Children" : [
+        {
+          "ColorPersistent" : {
+            "Green" : 1.0000000000000000E+000,
+            "Red" : 1.0000000000000000E+000,
+            "$ClassName" : "TCastleColorPersistent"
+          },
+          "FontSize" : 2.0000000000000000E+001,
+          "HorizontalAnchorDelta" : 1.0000000000000000E+001,
+          "Name" : "LabelInfo",
+          "Text" : [
+            "Move with AWSD QE and arrow keys.",
+            "Hold Shift to run when moving.",
+            "Hold Ctrl to crouch.",
+            "",
+            "Rotate camera by moving the mouse.",
+            "Press M to toggle \"mouse look\" (to be able to e.g. click on checkboxes).",
+            "",
+            "Click to shoot at the enemies.",
+            "Shoots with the avatar direction.",
+            "Use \"Debug Avatar\" to see a blue arrow indicating avatar direction.",
+            "",
+            "Use mouse wheel to get closer / further to the avatar.",
+            "",
+            "Press F5 to make a screenshot."
+          ],
+          "VerticalAnchorDelta" : -1.0000000000000000E+001,
+          "VerticalAnchorParent" : "vpTop",
+          "VerticalAnchorSelf" : "vpTop",
+          "$Children" : [
+          ],
+          "$ClassName" : "TCastleLabel"
+        },
+        {
+          "Caption" : "Camera Follows Avatar",
+          "CheckboxColorPersistent" : {
+            "Blue" : 1.0000000000000000E+000,
+            "Green" : 1.0000000000000000E+000,
+            "Red" : 1.0000000000000000E+000,
+            "$ClassName" : "TCastleColorPersistent"
+          },
+          "Checked" : true,
+          "FontSize" : 2.0000000000000000E+001,
+          "HorizontalAnchorDelta" : 1.0000000000000000E+001,
+          "Name" : "CheckboxCameraFollows",
+          "TextColorPersistent" : {
+            "Blue" : 1.0000000000000000E+000,
+            "Green" : 1.0000000000000000E+000,
+            "Red" : 1.0000000000000000E+000,
+            "$ClassName" : "TCastleColorPersistent"
+          },
+          "VerticalAnchorDelta" : -3.1500003051757812E+002,
+          "VerticalAnchorParent" : "vpTop",
+          "VerticalAnchorSelf" : "vpTop",
+          "$Children" : [
+          ],
+          "$ClassName" : "TCastleCheckbox"
+        },
+        {
+          "Caption" : "Aim Avatar Horizontally (Rotating Camera Will Rotate Also Avatar) (Click with right mouse button to toggle)",
+          "CheckboxColorPersistent" : {
+            "Blue" : 1.0000000000000000E+000,
+            "Green" : 1.0000000000000000E+000,
+            "Red" : 1.0000000000000000E+000,
+            "$ClassName" : "TCastleColorPersistent"
+          },
+          "FontSize" : 2.0000000000000000E+001,
+          "HorizontalAnchorDelta" : 1.0000000000000000E+001,
+          "Name" : "CheckboxAimAvatar",
+          "TextColorPersistent" : {
+            "Blue" : 1.0000000000000000E+000,
+            "Green" : 1.0000000000000000E+000,
+            "Red" : 1.0000000000000000E+000,
+            "$ClassName" : "TCastleColorPersistent"
+          },
+          "VerticalAnchorDelta" : -3.4900003051757812E+002,
+          "VerticalAnchorParent" : "vpTop",
+          "VerticalAnchorSelf" : "vpTop",
+          "$Children" : [
+          ],
+          "$ClassName" : "TCastleCheckbox"
+        },
+        {
+          "Caption" : "Debug Avatar Colliders",
+          "CheckboxColorPersistent" : {
+            "Blue" : 1.0000000000000000E+000,
+            "Green" : 1.0000000000000000E+000,
+            "Red" : 1.0000000000000000E+000,
+            "$ClassName" : "TCastleColorPersistent"
+          },
+          "FontSize" : 2.0000000000000000E+001,
+          "HorizontalAnchorDelta" : 1.0000000000000000E+001,
+          "Name" : "CheckboxDebugAvatarColliders",
+          "TextColorPersistent" : {
+            "Blue" : 1.0000000000000000E+000,
+            "Green" : 1.0000000000000000E+000,
+            "Red" : 1.0000000000000000E+000,
+            "$ClassName" : "TCastleColorPersistent"
+          },
+          "VerticalAnchorDelta" : -3.8300003051757812E+002,
+          "VerticalAnchorParent" : "vpTop",
+          "VerticalAnchorSelf" : "vpTop",
+          "$Children" : [
+          ],
+          "$ClassName" : "TCastleCheckbox"
+        },
+        {
+          "Caption" : "Immediately Fix Blocked Camera",
+          "CheckboxColorPersistent" : {
+            "Blue" : 1.0000000000000000E+000,
+            "Green" : 1.0000000000000000E+000,
+            "Red" : 1.0000000000000000E+000,
+            "$ClassName" : "TCastleColorPersistent"
+          },
+          "FontSize" : 2.0000000000000000E+001,
+          "HorizontalAnchorDelta" : 1.0000000000000000E+001,
+          "Name" : "CheckboxImmediatelyFixBlockedCamera",
+          "TextColorPersistent" : {
+            "Blue" : 1.0000000000000000E+000,
+            "Green" : 1.0000000000000000E+000,
+            "Red" : 1.0000000000000000E+000,
+            "$ClassName" : "TCastleColorPersistent"
+          },
+          "VerticalAnchorDelta" : -4.1700003051757812E+002,
+          "VerticalAnchorParent" : "vpTop",
+          "VerticalAnchorSelf" : "vpTop",
+          "$Children" : [
+          ],
+          "$ClassName" : "TCastleCheckbox"
+        }
+      ],
+      "$ClassName" : "TCastleVerticalGroup"
+    }
+  ],
+  "$ClassName" : "TCastleUserInterface"
+}

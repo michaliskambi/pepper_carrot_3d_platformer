@@ -1,0 +1,156 @@
+{
+  "FullSize" : true,
+  "Name" : "Group1",
+  "$Children" : [
+    {
+      "BackgroundColorPersistent" : {
+        "Blue" : 1.0000000000000000E+000,
+        "Green" : 1.0000000000000000E+000,
+        "Red" : 0.0000000000000000E+000,
+        "$ClassName" : "TCastleColorPersistent"
+      },
+      "Camera" : {
+        "InitialDirectionPersistent" : {
+          "X" : 4.4721361994743347E-001,
+          "Z" : -8.9442723989486694E-001,
+          "$ClassName" : "TCastleVector3Persistent"
+        },
+        "InitialPositionPersistent" : {
+          "X" : -1.0000000000000000E+000,
+          "Y" : 5.0000000000000000E+000,
+          "Z" : 2.0000000000000000E+000,
+          "$ClassName" : "TCastleVector3Persistent"
+        },
+        "Name" : "Camera",
+        "Orthographic" : {
+          "Name" : "Orthographic",
+          "$Children" : [
+          ],
+          "$ClassName" : "TCastleOrthographic"
+        },
+        "Perspective" : {
+          "Name" : "Perspective",
+          "$Children" : [
+          ],
+          "$ClassName" : "TCastlePerspective"
+        },
+        "$Children" : [
+        ],
+        "$ClassName" : "TCastleCamera"
+      },
+      "FullSize" : true,
+      "Items" : {
+        "Name" : "Items",
+        "PhysicsProperties" : {
+          "Name" : "PhysicsProperties",
+          "$Children" : [
+          ],
+          "$ClassName" : "TPhysicsProperties"
+        },
+        "$Children" : [
+          {
+            "ExposeTransforms" : [
+            ],
+            "Name" : "Level",
+            "RenderOptions" : {
+              "Name" : "RenderOptions",
+              "WireframeEffect" : "weSilhouette",
+              "$Children" : [
+              ],
+              "$ClassName" : "TCastleScene.TSceneRenderOptions"
+            },
+            "URL" : "castle-data:/level1/level/grass_cube_level.gltf",
+            "$Children" : [
+            ],
+            "$ClassName" : "TCastleScene"
+          },
+          {
+            "ExposeTransforms" : [
+            ],
+            "Name" : "Pepper",
+            "RenderOptions" : {
+              "BlendingSort" : "bs2D",
+              "Name" : "RenderOptions",
+              "WireframeEffect" : "weSilhouette",
+              "$Children" : [
+              ],
+              "$ClassName" : "TCastleScene.TSceneRenderOptions"
+            },
+            "TranslationPersistent" : {
+              "Y" : 3.0086722373962402E+000,
+              "$ClassName" : "TCastleVector3Persistent"
+            },
+            "URL" : "castle-data:/level1/avatar/pepper_anim_WALK_and_IDLE_first_attempt_better.gltf",
+            "$Children" : [
+            ],
+            "$ClassName" : "TCastleScene"
+          }
+        ],
+        "$ClassName" : "TCastleRootTransform"
+      },
+      "Name" : "Viewport1",
+      "Navigation" : "WalkNavigation1",
+      "$Children" : [
+        {
+          "Gravity" : false,
+          "MouseDragMode" : "mdRotate",
+          "MoveSpeed" : 1.0000000000000000E+001,
+          "Name" : "WalkNavigation1",
+          "$Children" : [
+          ],
+          "$ClassName" : "TCastleWalkNavigation"
+        }
+      ],
+      "$ClassName" : "TCastleViewport"
+    },
+    {
+      "ColorPersistent" : {
+        "Green" : 1.0000000000000000E+000,
+        "Red" : 1.0000000000000000E+000,
+        "$ClassName" : "TCastleColorPersistent"
+      },
+      "FontSize" : 2.0000000000000000E+001,
+      "HorizontalAnchorDelta" : -2.0000000000000000E+001,
+      "HorizontalAnchorParent" : "hpRight",
+      "HorizontalAnchorSelf" : "hpRight",
+      "Name" : "LabelFps",
+      "Text" : [
+        "FPS: xxx"
+      ],
+      "VerticalAnchorDelta" : -2.0000000000000000E+001,
+      "VerticalAnchorParent" : "vpTop",
+      "VerticalAnchorSelf" : "vpTop",
+      "$Children" : [
+      ],
+      "$ClassName" : "TCastleLabel"
+    },
+    {
+      "FullSize" : true,
+      "Name" : "SomethingEmpty",
+      "$Children" : [
+      ],
+      "$ClassName" : "TCastleUserInterface"
+    },
+    {
+      "FontSize" : 4.0000000000000000E+001,
+      "HorizontalAnchorParent" : "hpMiddle",
+      "HorizontalAnchorSelf" : "hpMiddle",
+      "Name" : "DebugLabel",
+      "Text" : [
+        "Hey!",
+        "The main menu isn't defined here. :)",
+        "Sorry :)",
+        "It's defined in gamestatemain.pas :)",
+        "Sorry :)",
+        ""
+      ],
+      "VerticalAlignment" : "vpMiddle",
+      "VerticalAnchorParent" : "vpMiddle",
+      "VerticalAnchorSelf" : "vpMiddle",
+      "$Children" : [
+      ],
+      "$ClassName" : "TCastleLabel"
+    }
+  ],
+  "$ClassName" : "TCastleUserInterface"
+}

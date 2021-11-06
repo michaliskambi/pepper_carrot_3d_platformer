@@ -1,0 +1,741 @@
+{
+  "FullSize" : true,
+  "Name" : "WinState",
+  "$Children" : [
+    {
+      "BackgroundColorPersistent" : {
+        "Blue" : 1.0000000000000000E+000,
+        "Green" : 1.0000000000000000E+000,
+        "Red" : 0.0000000000000000E+000,
+        "$ClassName" : "TCastleColorPersistent"
+      },
+      "Camera" : {
+        "InitialPositionPersistent" : {
+          "X" : 2.0000000000000000E+000,
+          "Y" : 2.0000000000000000E+000,
+          "Z" : 3.0000000000000000E+000,
+          "$ClassName" : "TCastleVector3Persistent"
+        },
+        "Name" : "Camera",
+        "Orthographic" : {
+          "Name" : "Orthographic",
+          "$Children" : [
+          ],
+          "$ClassName" : "TCastleOrthographic"
+        },
+        "Perspective" : {
+          "Name" : "Perspective",
+          "$Children" : [
+          ],
+          "$ClassName" : "TCastlePerspective"
+        },
+        "$Children" : [
+        ],
+        "$ClassName" : "TCastleCamera"
+      },
+      "FullSize" : true,
+      "Items" : {
+        "Name" : "Items",
+        "PhysicsProperties" : {
+          "Name" : "PhysicsProperties",
+          "$Children" : [
+          ],
+          "$ClassName" : "TPhysicsProperties"
+        },
+        "$Children" : [
+          {
+            "ExposeTransforms" : [
+            ],
+            "Name" : "Pepper",
+            "RenderOptions" : {
+              "Name" : "RenderOptions",
+              "WireframeEffect" : "weSilhouette",
+              "$Children" : [
+              ],
+              "$ClassName" : "TCastleScene.TSceneRenderOptions"
+            },
+            "RotationPersistent" : {
+              "W" : 5.9694510698318481E-001,
+              "Y" : 9.9999392032623291E-001,
+              "$ClassName" : "TCastleVector4Persistent"
+            },
+            "URL" : "castle-data:/level1/avatar/pepper_anim_WALK_and_IDLE_first_attempt_better.gltf",
+            "$Children" : [
+            ],
+            "$ClassName" : "TCastleScene"
+          },
+          {
+            "ExposeTransforms" : [
+            ],
+            "Name" : "Saffron",
+            "RenderOptions" : {
+              "Name" : "RenderOptions",
+              "WireframeEffect" : "weSilhouette",
+              "$Children" : [
+              ],
+              "$ClassName" : "TCastleScene.TSceneRenderOptions"
+            },
+            "RotationPersistent" : {
+              "W" : 3.1457781791687012E-001,
+              "Y" : 9.9997520446777344E-001,
+              "$ClassName" : "TCastleVector4Persistent"
+            },
+            "ScalePersistent" : {
+              "X" : 4.7999998927116394E-001,
+              "Y" : 4.7999998927116394E-001,
+              "Z" : 4.7999998927116394E-001,
+              "$ClassName" : "TCastleVector3Persistent"
+            },
+            "TranslationPersistent" : {
+              "X" : 9.4642841815948486E-001,
+              "Y" : 1.1000000238418579E+000,
+              "$ClassName" : "TCastleVector3Persistent"
+            },
+            "URL" : "castle-data:/level_snowball/enemies/saffron_final.gltf",
+            "$Children" : [
+            ],
+            "$ClassName" : "TCastleScene"
+          },
+          {
+            "ExposeTransforms" : [
+            ],
+            "Name" : "Shichimi",
+            "RenderOptions" : {
+              "Name" : "RenderOptions",
+              "WireframeEffect" : "weSilhouette",
+              "$Children" : [
+              ],
+              "$ClassName" : "TCastleScene.TSceneRenderOptions"
+            },
+            "RotationPersistent" : {
+              "W" : 1.3203160464763641E-001,
+              "X" : 1.2263374030590057E-001,
+              "Y" : -9.9243968725204468E-001,
+              "Z" : -8.0462498590350151E-003,
+              "$ClassName" : "TCastleVector4Persistent"
+            },
+            "ScalePersistent" : {
+              "X" : 4.7999998927116394E-001,
+              "Y" : 4.7999998927116394E-001,
+              "Z" : 4.7999998927116394E-001,
+              "$ClassName" : "TCastleVector3Persistent"
+            },
+            "TranslationPersistent" : {
+              "X" : 2.4712710380554199E+000,
+              "Y" : 1.1000000238418579E+000,
+              "$ClassName" : "TCastleVector3Persistent"
+            },
+            "URL" : "castle-data:/level_snowball/enemies/shichimi_final.gltf",
+            "$Children" : [
+            ],
+            "$ClassName" : "TCastleScene"
+          },
+          {
+            "ExposeTransforms" : [
+            ],
+            "Name" : "Coriander",
+            "RenderOptions" : {
+              "Name" : "RenderOptions",
+              "WireframeEffect" : "weSilhouette",
+              "$Children" : [
+              ],
+              "$ClassName" : "TCastleScene.TSceneRenderOptions"
+            },
+            "RotationPersistent" : {
+              "W" : 5.1099389791488647E-001,
+              "Y" : -9.9999850988388062E-001,
+              "$ClassName" : "TCastleVector4Persistent"
+            },
+            "ScalePersistent" : {
+              "X" : 5.0000000000000000E-001,
+              "Y" : 5.0000000000000000E-001,
+              "Z" : 5.0000000000000000E-001,
+              "$ClassName" : "TCastleVector3Persistent"
+            },
+            "TranslationPersistent" : {
+              "X" : 3.6805338859558105E+000,
+              "Y" : 1.1000000238418579E+000,
+              "$ClassName" : "TCastleVector3Persistent"
+            },
+            "URL" : "castle-data:/level_snowball/enemies/coriander.gltf",
+            "$Children" : [
+            ],
+            "$ClassName" : "TCastleScene"
+          },
+          {
+            "CollisionSphereRadius" : 1.0000000000000000E+000,
+            "ColorPersistent" : {
+              "Blue" : 9.0196080505847931E-002,
+              "Green" : 7.8039216995239258E-001,
+              "Red" : 8.9411765336990356E-001,
+              "$ClassName" : "TCastleColorPersistent"
+            },
+            "Material" : "pmUnlit",
+            "Name" : "Carrot",
+            "RenderOptions" : {
+              "Name" : "RenderOptions",
+              "WireframeEffect" : "weSilhouette",
+              "$Children" : [
+              ],
+              "$ClassName" : "TCastleScene.TSceneRenderOptions"
+            },
+            "ScalePersistent" : {
+              "X" : 5.0000000000000000E-001,
+              "Y" : 5.0000000000000000E-001,
+              "Z" : 5.0000000000000000E-001,
+              "$ClassName" : "TCastleVector3Persistent"
+            },
+            "TranslationPersistent" : {
+              "X" : 1.5593808889389038E+000,
+              "Y" : 1.6181558370590210E+000,
+              "Z" : -2.0000000000000000E+000,
+              "$ClassName" : "TCastleVector3Persistent"
+            },
+            "$Children" : [
+              {
+                "ColorPersistent" : {
+                  "Blue" : 9.0196080505847931E-002,
+                  "Green" : 7.8039216995239258E-001,
+                  "Red" : 8.9411765336990356E-001,
+                  "$ClassName" : "TCastleColorPersistent"
+                },
+                "Material" : "pmUnlit",
+                "Name" : "Ear1",
+                "RenderOptions" : {
+                  "Name" : "RenderOptions",
+                  "WireframeEffect" : "weSilhouette",
+                  "$Children" : [
+                  ],
+                  "$ClassName" : "TCastleScene.TSceneRenderOptions"
+                },
+                "RotationPersistent" : {
+                  "W" : 8.3160227537155151E-001,
+                  "Z" : 9.9999982118606567E-001,
+                  "$ClassName" : "TCastleVector4Persistent"
+                },
+                "ScalePersistent" : {
+                  "X" : 3.0000001192092896E-001,
+                  "Y" : 3.0000001192092896E-001,
+                  "Z" : 3.0000001192092896E-001,
+                  "$ClassName" : "TCastleVector3Persistent"
+                },
+                "TranslationPersistent" : {
+                  "X" : -9.2380481958389282E-001,
+                  "Y" : 7.8818434476852417E-001,
+                  "$ClassName" : "TCastleVector3Persistent"
+                },
+                "$Children" : [
+                ],
+                "$ClassName" : "TCastleCone"
+              },
+              {
+                "ColorPersistent" : {
+                  "Blue" : 9.0196080505847931E-002,
+                  "Green" : 7.8039216995239258E-001,
+                  "Red" : 8.9411765336990356E-001,
+                  "$ClassName" : "TCastleColorPersistent"
+                },
+                "Material" : "pmUnlit",
+                "Name" : "Ear2",
+                "RenderOptions" : {
+                  "Name" : "RenderOptions",
+                  "WireframeEffect" : "weSilhouette",
+                  "$Children" : [
+                  ],
+                  "$ClassName" : "TCastleScene.TSceneRenderOptions"
+                },
+                "RotationPersistent" : {
+                  "W" : 8.5711747407913208E-001,
+                  "Z" : -1.0000003576278687E+000,
+                  "$ClassName" : "TCastleVector4Persistent"
+                },
+                "ScalePersistent" : {
+                  "X" : 3.0000001192092896E-001,
+                  "Y" : 3.0000001192092896E-001,
+                  "Z" : 3.0000001192092896E-001,
+                  "$ClassName" : "TCastleVector3Persistent"
+                },
+                "TranslationPersistent" : {
+                  "X" : 8.7145918607711792E-001,
+                  "Y" : 7.5402373075485229E-001,
+                  "$ClassName" : "TCastleVector3Persistent"
+                },
+                "$Children" : [
+                ],
+                "$ClassName" : "TCastleCone"
+              },
+              {
+                "CollisionSphereRadius" : 1.0000000000000000E+000,
+                "Material" : "pmUnlit",
+                "Name" : "EyeWhite1",
+                "RenderOptions" : {
+                  "Name" : "RenderOptions",
+                  "$Children" : [
+                  ],
+                  "$ClassName" : "TCastleScene.TSceneRenderOptions"
+                },
+                "ScalePersistent" : {
+                  "X" : 2.5000000000000000E-001,
+                  "Y" : 2.5000000000000000E-001,
+                  "Z" : 2.5000000000000000E-001,
+                  "$ClassName" : "TCastleVector3Persistent"
+                },
+                "TranslationPersistent" : {
+                  "X" : -2.3283249139785767E-001,
+                  "Y" : 1.7711502313613892E-001,
+                  "Z" : 1.0556808710098267E+000,
+                  "$ClassName" : "TCastleVector3Persistent"
+                },
+                "$Children" : [
+                  {
+                    "CollisionSphereRadius" : 1.0000000000000000E+000,
+                    "Name" : "Eye1",
+                    "RenderOptions" : {
+                      "Name" : "RenderOptions",
+                      "$Children" : [
+                      ],
+                      "$ClassName" : "TCastleScene.TSceneRenderOptions"
+                    },
+                    "ScalePersistent" : {
+                      "X" : 3.0000001192092896E-001,
+                      "Y" : 5.0000000000000000E-001,
+                      "Z" : 5.0000000000000000E-001,
+                      "$ClassName" : "TCastleVector3Persistent"
+                    },
+                    "TranslationPersistent" : {
+                      "X" : 2.6505059003829956E-001,
+                      "Y" : 8.9523732662200928E-002,
+                      "Z" : 1.3681197166442871E+000,
+                      "$ClassName" : "TCastleVector3Persistent"
+                    },
+                    "$Children" : [
+                    ],
+                    "$ClassName" : "TCastleSphere"
+                  }
+                ],
+                "$ClassName" : "TCastleSphere"
+              },
+              {
+                "CollisionSphereRadius" : 1.0000000000000000E+000,
+                "Material" : "pmUnlit",
+                "Name" : "EyeWhite2",
+                "RenderOptions" : {
+                  "Name" : "RenderOptions",
+                  "$Children" : [
+                  ],
+                  "$ClassName" : "TCastleScene.TSceneRenderOptions"
+                },
+                "ScalePersistent" : {
+                  "X" : 2.5000000000000000E-001,
+                  "Y" : 2.5000000000000000E-001,
+                  "Z" : 2.5000000000000000E-001,
+                  "$ClassName" : "TCastleVector3Persistent"
+                },
+                "TranslationPersistent" : {
+                  "X" : 4.4143205881118774E-001,
+                  "Y" : 1.7711502313613892E-001,
+                  "Z" : 1.0556808710098267E+000,
+                  "$ClassName" : "TCastleVector3Persistent"
+                },
+                "$Children" : [
+                  {
+                    "CollisionSphereRadius" : 1.0000000000000000E+000,
+                    "Name" : "Eye2",
+                    "RenderOptions" : {
+                      "Name" : "RenderOptions",
+                      "$Children" : [
+                      ],
+                      "$ClassName" : "TCastleScene.TSceneRenderOptions"
+                    },
+                    "ScalePersistent" : {
+                      "X" : 3.0000001192092896E-001,
+                      "Y" : 5.0000000000000000E-001,
+                      "Z" : 5.0000000000000000E-001,
+                      "$ClassName" : "TCastleVector3Persistent"
+                    },
+                    "TranslationPersistent" : {
+                      "X" : -2.4452909827232361E-002,
+                      "Y" : 1.2290483713150024E-001,
+                      "Z" : 1.3681197166442871E+000,
+                      "$ClassName" : "TCastleVector3Persistent"
+                    },
+                    "$Children" : [
+                    ],
+                    "$ClassName" : "TCastleSphere"
+                  }
+                ],
+                "$ClassName" : "TCastleSphere"
+              },
+              {
+                "CollisionSphereRadius" : 1.0000000000000000E+000,
+                "ColorPersistent" : {
+                  "Blue" : 0.0000000000000000E+000,
+                  "Green" : 0.0000000000000000E+000,
+                  "Red" : 0.0000000000000000E+000,
+                  "$ClassName" : "TCastleColorPersistent"
+                },
+                "Material" : "pmUnlit",
+                "Name" : "Nose",
+                "RenderOptions" : {
+                  "Name" : "RenderOptions",
+                  "$Children" : [
+                  ],
+                  "$ClassName" : "TCastleScene.TSceneRenderOptions"
+                },
+                "ScalePersistent" : {
+                  "X" : 1.0000000149011612E-001,
+                  "Y" : 1.0000000149011612E-001,
+                  "Z" : 1.0000000149011612E-001,
+                  "$ClassName" : "TCastleVector3Persistent"
+                },
+                "TranslationPersistent" : {
+                  "X" : 1.3649082183837891E-001,
+                  "Y" : -1.5517909824848175E-001,
+                  "Z" : 1.6301178932189941E+000,
+                  "$ClassName" : "TCastleVector3Persistent"
+                },
+                "$Children" : [
+                ],
+                "$ClassName" : "TCastleSphere"
+              },
+              {
+                "ColorPersistent" : {
+                  "Blue" : 0.0000000000000000E+000,
+                  "Green" : 0.0000000000000000E+000,
+                  "Red" : 0.0000000000000000E+000,
+                  "$ClassName" : "TCastleColorPersistent"
+                },
+                "Material" : "pmUnlit",
+                "Name" : "MouthLeft",
+                "RenderOptions" : {
+                  "Name" : "RenderOptions",
+                  "$Children" : [
+                  ],
+                  "$ClassName" : "TCastleScene.TSceneRenderOptions"
+                },
+                "RotationPersistent" : {
+                  "W" : 5.5485874414443970E-001,
+                  "Z" : 9.9999654293060303E-001,
+                  "$ClassName" : "TCastleVector4Persistent"
+                },
+                "ScalePersistent" : {
+                  "X" : 1.0000000149011612E-001,
+                  "$ClassName" : "TCastleVector3Persistent"
+                },
+                "TranslationPersistent" : {
+                  "Y" : -3.0000001192092896E-001,
+                  "$ClassName" : "TCastleVector3Persistent"
+                },
+                "$Children" : [
+                ],
+                "$ClassName" : "TCastlePlane"
+              },
+              {
+                "ColorPersistent" : {
+                  "Blue" : 0.0000000000000000E+000,
+                  "Green" : 0.0000000000000000E+000,
+                  "Red" : 0.0000000000000000E+000,
+                  "$ClassName" : "TCastleColorPersistent"
+                },
+                "Material" : "pmUnlit",
+                "Name" : "MouthLeft1",
+                "RenderOptions" : {
+                  "Name" : "RenderOptions",
+                  "$Children" : [
+                  ],
+                  "$ClassName" : "TCastleScene.TSceneRenderOptions"
+                },
+                "RotationPersistent" : {
+                  "W" : 5.0138771533966064E-001,
+                  "Z" : -9.9999952316284180E-001,
+                  "$ClassName" : "TCastleVector4Persistent"
+                },
+                "ScalePersistent" : {
+                  "X" : 1.0000000149011612E-001,
+                  "Z" : 1.0000000149011612E-001,
+                  "$ClassName" : "TCastleVector3Persistent"
+                },
+                "TranslationPersistent" : {
+                  "X" : -4.0000000596046448E-001,
+                  "Y" : -4.0000000596046448E-001,
+                  "Z" : 1.0000000000000000E+000,
+                  "$ClassName" : "TCastleVector3Persistent"
+                },
+                "$Children" : [
+                ],
+                "$ClassName" : "TCastlePlane"
+              },
+              {
+                "ColorPersistent" : {
+                  "Blue" : 0.0000000000000000E+000,
+                  "Green" : 0.0000000000000000E+000,
+                  "Red" : 0.0000000000000000E+000,
+                  "$ClassName" : "TCastleColorPersistent"
+                },
+                "Material" : "pmUnlit",
+                "Name" : "MouthRight",
+                "RenderOptions" : {
+                  "Name" : "RenderOptions",
+                  "$Children" : [
+                  ],
+                  "$ClassName" : "TCastleScene.TSceneRenderOptions"
+                },
+                "RotationPersistent" : {
+                  "W" : 5.1263004541397095E-001,
+                  "Z" : -1.0000041723251343E+000,
+                  "$ClassName" : "TCastleVector4Persistent"
+                },
+                "ScalePersistent" : {
+                  "X" : 1.0000000149011612E-001,
+                  "Z" : 1.0000000149011612E-001,
+                  "$ClassName" : "TCastleVector3Persistent"
+                },
+                "TranslationPersistent" : {
+                  "X" : 4.0000000596046448E-001,
+                  "Y" : -2.8000000119209290E-001,
+                  "Z" : 2.0000000000000000E+000,
+                  "$ClassName" : "TCastleVector3Persistent"
+                },
+                "$Children" : [
+                ],
+                "$ClassName" : "TCastlePlane"
+              },
+              {
+                "ColorPersistent" : {
+                  "Blue" : 0.0000000000000000E+000,
+                  "Green" : 0.0000000000000000E+000,
+                  "Red" : 0.0000000000000000E+000,
+                  "$ClassName" : "TCastleColorPersistent"
+                },
+                "Material" : "pmUnlit",
+                "Name" : "MouthRight1",
+                "RenderOptions" : {
+                  "Name" : "RenderOptions",
+                  "$Children" : [
+                  ],
+                  "$ClassName" : "TCastleScene.TSceneRenderOptions"
+                },
+                "RotationPersistent" : {
+                  "W" : 5.1358699798583984E-001,
+                  "Z" : 9.9999827146530151E-001,
+                  "$ClassName" : "TCastleVector4Persistent"
+                },
+                "ScalePersistent" : {
+                  "X" : 1.0000000149011612E-001,
+                  "Z" : 1.0000000149011612E-001,
+                  "$ClassName" : "TCastleVector3Persistent"
+                },
+                "TranslationPersistent" : {
+                  "X" : 6.9999998807907104E-001,
+                  "Y" : -2.8000000119209290E-001,
+                  "Z" : 2.0000000000000000E+000,
+                  "$ClassName" : "TCastleVector3Persistent"
+                },
+                "$Children" : [
+                ],
+                "$ClassName" : "TCastlePlane"
+              },
+              {
+                "ColorPersistent" : {
+                  "Blue" : 0.0000000000000000E+000,
+                  "Green" : 0.0000000000000000E+000,
+                  "$ClassName" : "TCastleColorPersistent"
+                },
+                "Material" : "pmUnlit",
+                "Name" : "MouthRed",
+                "RenderOptions" : {
+                  "Name" : "RenderOptions",
+                  "WireframeEffect" : "weSilhouette",
+                  "$Children" : [
+                  ],
+                  "$ClassName" : "TCastleScene.TSceneRenderOptions"
+                },
+                "RotationPersistent" : {
+                  "W" : 3.1575746536254883E+000,
+                  "Z" : -1.0000004768371582E+000,
+                  "$ClassName" : "TCastleVector4Persistent"
+                },
+                "ScalePersistent" : {
+                  "X" : 2.0000000298023224E-001,
+                  "Y" : 1.0000000149011612E-001,
+                  "Z" : 4.0000000596046448E-001,
+                  "$ClassName" : "TCastleVector3Persistent"
+                },
+                "TranslationPersistent" : {
+                  "X" : 1.0000000149011612E-001,
+                  "Y" : -5.0000000000000000E-001,
+                  "Z" : 1.0000000000000000E+000,
+                  "$ClassName" : "TCastleVector3Persistent"
+                },
+                "$Children" : [
+                ],
+                "$ClassName" : "TCastleCone"
+              },
+              {
+                "ColorPersistent" : {
+                  "Blue" : 0.0000000000000000E+000,
+                  "Green" : 0.0000000000000000E+000,
+                  "$ClassName" : "TCastleColorPersistent"
+                },
+                "Material" : "pmUnlit",
+                "Name" : "MouthRed2",
+                "RenderOptions" : {
+                  "Name" : "RenderOptions",
+                  "WireframeEffect" : "weSilhouette",
+                  "$Children" : [
+                  ],
+                  "$ClassName" : "TCastleScene.TSceneRenderOptions"
+                },
+                "RotationPersistent" : {
+                  "W" : 6.2777919769287109E+000,
+                  "Z" : 1.1603347063064575E+000,
+                  "$ClassName" : "TCastleVector4Persistent"
+                },
+                "ScalePersistent" : {
+                  "X" : 2.0000000298023224E-001,
+                  "Y" : 1.0000000149011612E-001,
+                  "Z" : 4.0000000596046448E-001,
+                  "$ClassName" : "TCastleVector3Persistent"
+                },
+                "TranslationPersistent" : {
+                  "X" : 1.0000000149011612E-001,
+                  "Y" : -3.0000001192092896E-001,
+                  "Z" : 1.0000000000000000E+000,
+                  "$ClassName" : "TCastleVector3Persistent"
+                },
+                "$Children" : [
+                ],
+                "$ClassName" : "TCastleCone"
+              },
+              {
+                "CollisionSphereRadius" : 1.0000000000000000E+000,
+                "ColorPersistent" : {
+                  "Blue" : 9.0196080505847931E-002,
+                  "Green" : 7.8039216995239258E-001,
+                  "Red" : 9.0588235855102539E-001,
+                  "$ClassName" : "TCastleColorPersistent"
+                },
+                "Material" : "pmUnlit",
+                "Name" : "Body",
+                "RenderOptions" : {
+                  "Name" : "RenderOptions",
+                  "WireframeEffect" : "weSilhouette",
+                  "$Children" : [
+                  ],
+                  "$ClassName" : "TCastleScene.TSceneRenderOptions"
+                },
+                "ScalePersistent" : {
+                  "Y" : 1.5000000000000000E+000,
+                  "$ClassName" : "TCastleVector3Persistent"
+                },
+                "TranslationPersistent" : {
+                  "Y" : -2.0000000000000000E+000,
+                  "$ClassName" : "TCastleVector3Persistent"
+                },
+                "$Children" : [
+                ],
+                "$ClassName" : "TCastleSphere"
+              },
+              {
+                "ColorPersistent" : {
+                  "Blue" : 9.0196080505847931E-002,
+                  "Green" : 7.8039216995239258E-001,
+                  "Red" : 9.0588235855102539E-001,
+                  "$ClassName" : "TCastleColorPersistent"
+                },
+                "Material" : "pmUnlit",
+                "Name" : "Tail",
+                "RenderOptions" : {
+                  "Name" : "RenderOptions",
+                  "WireframeEffect" : "weSilhouette",
+                  "$Children" : [
+                  ],
+                  "$ClassName" : "TCastleScene.TSceneRenderOptions"
+                },
+                "RotationPersistent" : {
+                  "W" : 1.1260622739791870E+000,
+                  "X" : -9.0503013134002686E-001,
+                  "Y" : -1.0333902388811111E-001,
+                  "Z" : -4.1259825229644775E-001,
+                  "$ClassName" : "TCastleVector4Persistent"
+                },
+                "ScalePersistent" : {
+                  "X" : 3.0000001192092896E-001,
+                  "Y" : 5.0000000000000000E+000,
+                  "Z" : 3.0000001192092896E-001,
+                  "$ClassName" : "TCastleVector3Persistent"
+                },
+                "TranslationPersistent" : {
+                  "X" : 1.5000000000000000E+000,
+                  "Y" : -2.0000000000000000E+000,
+                  "Z" : -6.0000000000000000E+000,
+                  "$ClassName" : "TCastleVector3Persistent"
+                },
+                "$Children" : [
+                ],
+                "$ClassName" : "TCastleCylinder"
+              }
+            ],
+            "$ClassName" : "TCastleSphere"
+          }
+        ],
+        "$ClassName" : "TCastleRootTransform"
+      },
+      "Name" : "Viewport1",
+      "Navigation" : "WalkNavigation1",
+      "$Children" : [
+        {
+          "Gravity" : false,
+          "MouseDragMode" : "mdNone",
+          "Name" : "WalkNavigation1",
+          "$Children" : [
+          ],
+          "$ClassName" : "TCastleWalkNavigation"
+        },
+        {
+          "FontScale" : 1.0000000000000000E+001,
+          "HorizontalAnchorParent" : "hpMiddle",
+          "HorizontalAnchorSelf" : "hpMiddle",
+          "Name" : "Label1",
+          "Text" : [
+            "YOU WIN!!!!!"
+          ],
+          "VerticalAnchorParent" : "vpTop",
+          "VerticalAnchorSelf" : "vpTop",
+          "$Children" : [
+          ],
+          "$ClassName" : "TCastleLabel"
+        },
+        {
+          "Caption" : "Back to Main Menu",
+          "CustomBackgroundDisabled" : {
+            "$ClassName" : "TCastleImagePersistent"
+          },
+          "CustomBackgroundFocused" : {
+            "$ClassName" : "TCastleImagePersistent"
+          },
+          "CustomBackgroundNormal" : {
+            "$ClassName" : "TCastleImagePersistent"
+          },
+          "CustomBackgroundPressed" : {
+            "$ClassName" : "TCastleImagePersistent"
+          },
+          "FontScale" : 8.0000000000000000E+000,
+          "Height" : 2.0000000000000000E+002,
+          "HorizontalAnchorParent" : "hpMiddle",
+          "HorizontalAnchorSelf" : "hpMiddle",
+          "Image" : {
+            "$ClassName" : "TCastleImagePersistent"
+          },
+          "Name" : "Button1",
+          "Width" : 3.0000000000000000E+002,
+          "$Children" : [
+          ],
+          "$ClassName" : "TCastleButton"
+        }
+      ],
+      "$ClassName" : "TCastleViewport"
+    }
+  ],
+  "$ClassName" : "TCastleUserInterface"
+}
