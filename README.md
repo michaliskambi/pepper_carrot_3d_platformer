@@ -1,5 +1,9 @@
 # Pepper and the Potion of Jumping
 
+[![shot1](data/screenshots/level_cave.png)]()
+[![shot2](data/screenshots/level_swim_2.png)]()
+[![shot3](data/screenshots/level_komona.png)]()
+
 This is a 3D platformer featuring Pepper from the Pepper & Carrot webcomics, a
 CC-BY 4.0+ webcomic by David Revoy. (See Licenses below)
 
