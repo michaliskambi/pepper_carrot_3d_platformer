@@ -140,7 +140,6 @@ begin
   { Visualize SceneAvatar bounding box, sphere, middle point, direction etc. }
   DebugAvatar := TDebugTransform.Create(FreeAtStop);
   DebugAvatar.Parent := SceneAvatar;
-  Debugavatar.Exists := true;
 
   { Configure ThirdPersonNavigation, some things that cannot be yet adusted using CGE editor.
     In particular assign some keys that are not assigned by default. }
@@ -196,9 +195,6 @@ begin
   // UpdateAimAvatar;
 
   J := 0;
-  WriteLnLog(FloatToStr(SceneAvatar.BoundingBox.SizeX));
-  WriteLnLog(FloatToStr(SceneAvatar.BoundingBox.SizeY));
-  WriteLnLog(FloatToStr(SceneAvatar.BoundingBox.SizeZ));
   for I := 0 to GemHolder.Count - 1 do
   begin
     { Gem := GetItem[I] as TCastleSphere; }
@@ -206,15 +202,12 @@ begin
     if Gem.BoundingBox.Collides(SceneAvatar.BoundingBox)
     then begin
       Gem.Exists := false;
-      WriteLnLog('A collision happened.');
     end;
     if (Gem.Exists = true) then J := J + 1;
-    WriteLnLog(FloatToStr(J));
 
   end;
   if J = 0 then
   begin
-    WriteLnLog('J is 0');
     LevelCastle := TStateLevelCastle.Create(Application);
     TUIState.Current := LevelCastle;
     Exit;
@@ -320,7 +313,7 @@ end;
 
 procedure TStateLevelSnowman.ChangeCheckboxDebugAvatarColliders(Sender: TObject);
 begin
-  DebugAvatar.Exists := true;
+  DebugAvatar.Exists := false;
 end;
 
 procedure TStateLevelSnowman.ChangeCheckboxImmediatelyFixBlockedCamera(Sender: TObject);
