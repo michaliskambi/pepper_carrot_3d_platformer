@@ -49,7 +49,7 @@
     </Target>
     <SearchPaths>
       <IncludeFiles Value="code/"/>
-      <OtherUnitFiles Value="code/"/>
+      <OtherUnitFiles Value="code/;code/level1/;code/level_castle/;code/level_cave/;code/level_clouds/;code/level_komona/;code/level_snowball/;code/level_snowman/;code/level_swim/;code/rivers_and_bridges/;code/win_state/;"/>
       <UnitOutputDirectory Value="castle-engine-output/standalone/lazarus-lib/$(TargetCPU)-$(TargetOS)"/>
       <Libraries Value="" />
     </SearchPaths>
