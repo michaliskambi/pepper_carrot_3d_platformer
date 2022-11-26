@@ -57,14 +57,14 @@ jobs:
           path: "*-linux-x86_64.tar.gz"
           if-no-files-found: error
 
-      - name: Package Android
-        run: $CASTLE_ENGINE_PATH/tools/build-tool/castle-engine package --target=android --verbose
-      - name: Archive Artifacts
-        uses: actions/upload-artifact@v3
-        with:
-          name: android-build
-          path: "*.apk"
-          if-no-files-found: error
+      # - name: Package Android
+      #   run: $CASTLE_ENGINE_PATH/tools/build-tool/castle-engine package --target=android --verbose
+      # - name: Archive Artifacts
+      #   uses: actions/upload-artifact@v3
+      #   with:
+      #     name: android-build
+      #     path: "*.apk"
+      #     if-no-files-found: error
 
   # Build for platforms supported from macOS.
   # This means to build for macOS and (maybe in the future) iOS.
