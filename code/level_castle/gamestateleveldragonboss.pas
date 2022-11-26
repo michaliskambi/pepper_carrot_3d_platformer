@@ -1,5 +1,5 @@
 {
-  Copyright 2020-2020 Michalis Kamburelis.
+  Copyright 2020-2022 Michalis Kamburelis.
   Copyright 2021 ultidonki
 
   This file is part of "Pepper and the Potion of Jumping".
@@ -269,7 +269,11 @@ begin
   begin
 {Set Dragon Direction = Player - Dragon. Or, Dragon - Player?  }
     SceneDragonBoss.Direction := SceneAvatar.Translation - SceneDragonBoss.Translation;
-    SceneDragonBoss.Direction.Y := 1;
+    SceneDragonBoss.Direction := Vector3(
+      SceneDragonBoss.Direction.X,
+      1,
+      SceneDragonBoss.Direction.Z
+    );
 { Check all snowballs, are they colliding? }
     if Snowballs.Count > 0 then
     begin

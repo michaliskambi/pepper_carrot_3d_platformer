@@ -1,5 +1,5 @@
 {
-    Copyright 2020-2020 Michalis Kamburelis.
+    Copyright 2020-2022 Michalis Kamburelis.
     Copyright 2021 ultidonki
 
     This file is part of "Pepper and the Potion of Jumping".
@@ -210,7 +210,11 @@ begin
   LabelGems.Caption := 'Num Gems Remaining: ' + GemsToGo.ToString;
 
   if SceneAvatar.Translation.Y > 28 
-    then SceneAvatar.Translation.Y := 28;
+    then SceneAvatar.Translation := Vector3(
+      SceneAvatar.Translation.X,
+      28,
+      SceneAvatar.Translation.Z
+    );
 
 end;
 

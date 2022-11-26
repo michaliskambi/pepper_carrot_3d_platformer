@@ -1,5 +1,5 @@
 {
-    Copyright 2020-2020 Michalis Kamburelis.
+    Copyright 2020-2022 Michalis Kamburelis.
     Copyright 2021 ultidonki
 
     This file is part of "Pepper and the Potion of Jumping".
@@ -120,7 +120,7 @@ procedure TThirdPersonSnowman.Update(const SecondsPassed: Single; var HandleInpu
         { do jumping }
         { Move(Camera.GravityUp * ThisJumpHeight, false, false); }
           { B.Move(Vector3(0, FJumpSpeed, 0), false, true); }
-          B.Move(Self.Up * ThisJumpHeight, false, true);
+          B.Move(Self.Camera.Up * ThisJumpHeight, false, true);
           { WriteLnLog('I''m jumping!!!'); }
        end
 
@@ -147,8 +147,11 @@ begin
   { Snowball := B.FindRequiredComponent('Snowball') as TCastleSphere; }
   SnowballGrow := FMovement * FSnowballGrowSpeed;
   Snowball.Radius := Snowball.Radius + SnowballGrow;
-  Snowball.Translation.Y := Snowball.Translation.Y + (SnowballGrow / 6);
-  Snowball.Translation.Z := Snowball.Translation.Z + (SnowballGrow / 6);
+  Snowball.Translation := Vector3(
+    Snowball.Translation.X,
+    Snowball.Translation.Y + (SnowballGrow / 6),
+    Snowball.Translation.Z + (SnowballGrow / 6)
+  );
   MaxDistanceToAvatarTarget := MaxDistanceToAvatarTarget + (SnowballGrow / 6);
 end;
 

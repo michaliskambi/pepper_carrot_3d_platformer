@@ -1,5 +1,5 @@
 {
-    Copyright 2020-2020 Michalis Kamburelis.
+    Copyright 2020-2022 Michalis Kamburelis.
     Copyright 2021 ultidonki
 
     This file is part of "Pepper and the Potion of Jumping".
@@ -128,7 +128,7 @@ procedure TThirdPersonFlier.Update(const SecondsPassed: Single; var HandleInput:
         { do jumping }
         { Move(Camera.GravityUp * ThisJumpHeight, false, false); }
           { B.Move(Vector3(0, FJumpSpeed, 0), false, true); }
-          B.Move(Self.Up * ThisJumpHeight, false, true);
+          B.Move(Self.Camera.Up * ThisJumpHeight, false, true);
           { WriteLnLog('I''m jumping!!!'); }
        end
 
